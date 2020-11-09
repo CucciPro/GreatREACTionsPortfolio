@@ -5,13 +5,7 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const tabs = ['About Me', 'Resume', 'Portfolio', 'Contact'];
-  const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
-  } = props;
+  const {} = props;
 
   return (
     <header className="flex-row px-1">

@@ -1,37 +1,20 @@
 import React from 'react';
+import codeImage from '../../assets/cover/made-with-code.png';
 // import Footer from '../Footer';
 
 function Resume() {
   return (
     <section className="my-5">
-      <div className="my-2">
+      <img src={codeImage} className="codeImage" style={{ width: "20%", height: "20%" }} alt="cover" />
+      <div className="resume">
       <p>
-      View my <a href="https://www.linkedin.com/in/jose-jasso-it/">linkedin</a>
+      View my: <a href="https://www.linkedin.com/in/jose-jasso-it/">Linkedin</a>
+      <a href="https://github.com/CucciPro/GreatREACTionPortfolio/blob/master/assets/docs/Resume.pdf?raw=true" class="link">Download Resume</a>
+
+      <h2>Proficiencies</h2>
+                <p>HTML, CSS (Bootstrap, Foundation, HandleBars), JavaScript, jQuery, React.js, Angular.js, IndexedDB</p>
+                <p>Node.js, Express.js, SQL, Sequelize, NoSQL, Python, APIs, Templating</p>
         </p>
-        <h3>Front-end Proficiencies</h3>
-        <ul className="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Bootstrap</li>
-          <li>jQuery</li>
-          <li>React</li>
-        </ul>
-        <h3>Back-end Proficiencies</h3>
-        <ul className="skills">
-          <li>APIs</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-          <li>REST</li>
-        </ul>
-        <h3>Tool Proficiencies</h3>
-        <ul className="skills"></ul>
-        <ul>
-        <li>Git, GitHub</li>
-        <li>Heroku</li>
-        </ul>
       </div>
       {/* <Footer></Footer>  */}
     </section>

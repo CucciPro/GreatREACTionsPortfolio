@@ -29,7 +29,7 @@ function App() {
   const [categories] = useState([
     {
       name: '',
-      description: 'Examples of my previous work',
+      description: '',
     },
   ]);
 

@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   
   return (
-    <div className = "grid-item-info2"> 
+    <div className = "footer"> 
       <h2>❤️ Made with love by CucciPro.</h2>
     </div>
 )};
