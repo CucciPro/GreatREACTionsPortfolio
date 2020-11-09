@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 function Nav(props) {
   const tabs = ['About Me', 'Contact', 'Resume', 'Portfolio'];
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Project from "../ProjectsPage";
+import ProjectsPage from "../ProjectsPage";
 
 function Portfolio() {
 
@@ -34,7 +34,7 @@ function Portfolio() {
       repo: "https://github.com/CucciPro/TechBlog"
     },
     {
-      name: 'Runbuddy',
+      name: 'RunBuddy',
       category: 'project',
       description: 'A starting point, my first project in web development.',
       link: "https://lernantino.github.io/run-buddy/",
@@ -46,7 +46,7 @@ function Portfolio() {
     <div>
       <div className="flex-center">
         {projects.map((project, idx) => (
-          <Project
+          <ProjectsPage
             project={project}
             key={"project" + idx}
           />
