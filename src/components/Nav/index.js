@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers';
+
+
 
 function Nav(props) {
-  const tabs = ['About Me', 'Resume', 'Portfolio', 'Contact',];
+  const tabs = ['About Me', 'Resume', 'Portfolio', 'Contact'];
+  const {
+    categories = [],
+    setCurrentCategory,
+    contactSelected,
+    currentCategory,
+    setContactSelected,
+  } = props;
 
   return (
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          Jose Jasso - 2020 Portfolio
+        Jose Jasso - 2020 Portfolio
         </a>
       </h2>
       <nav>

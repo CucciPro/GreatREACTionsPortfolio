@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import Footer from '../Footer';
 
 import { validateEmail } from '../../utils/helpers';
 

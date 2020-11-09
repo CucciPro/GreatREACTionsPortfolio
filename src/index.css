@@ -6,7 +6,7 @@ main {
 :root {
   --primary: #09105b;
   --secondary: #f3a847;
-  --tertiary: #b12704;
+  --tertiary: #09105b;
   --light: #fafafa;
   --dark: #04340b;
   --darker: #061f0c;
@@ -39,6 +39,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+.project-bg{
+  max-height: 50%;
+  max-width: 50%;
 }
 
 header {
@@ -75,7 +79,6 @@ nav li {
 }
 
 .grid-item-info2 {
-  position: absolute;
   bottom: 0;
   width: 100%;
 }

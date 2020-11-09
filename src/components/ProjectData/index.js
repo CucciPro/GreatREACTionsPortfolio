@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Project from "../ProjectsPage";
+import Project from "../Project";
+// import Footer from '../Footer';
 
 function Portfolio() {
 

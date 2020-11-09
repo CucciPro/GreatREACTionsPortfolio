@@ -29,7 +29,7 @@ function App() {
   const [categories] = useState([
     {
       name: '',
-      description: 'Projects examples for portfolio',
+      description: 'Examples of my previous work',
     },
   ]);
 
@@ -39,6 +39,7 @@ function App() {
 
   return (
     <div>
+
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <></>
       <div>{renderPage(currentPage)}
