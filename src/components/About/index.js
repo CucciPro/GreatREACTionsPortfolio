@@ -1,11 +1,11 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg';
+import coverImage from '../../assets/cover/download.png';
 
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "50%", height: "50%" }} alt="cover" />
+      <h1 id="about">Intro to Jose Jasso</h1>
+      <img src={coverImage} className="my-2" style={{ width: "20%", height: "20%" }} alt="cover" />
       <div className="my-2">
         <p>
         Organized, problem-solving-oriented individual with more than 5 years experience in the IT field. Firm believer that documentation is key. Specialized in care, speed, and accuracy. Strong written and verbal communication skills in both English and Spanish. 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProjectsPage from "../ProjectsPage";
+import Project from "../ProjectsPage";
 
 function Portfolio() {
 
@@ -46,7 +46,7 @@ function Portfolio() {
     <div>
       <div className="flex-center">
         {projects.map((project, idx) => (
-          <ProjectsPage
+          <Project
             project={project}
             key={"project" + idx}
           />
